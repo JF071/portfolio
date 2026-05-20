@@ -1,47 +1,33 @@
-import thumbnailCubeWar from "../../../assets/thumbnails/cubewar.webp";
-import thumbnailQuibbo from "../../../assets/thumbnails/quibbo.webp";
-//import thumbnailParticles from "../../../assets/thumbnails/particles.webp";
-import thumbnailPokedex from "../../../assets/thumbnails/pokedex.webp";
-import thumbnailSharkie from "../../../assets/thumbnails/sharkie.webp";
-import thumbnailStreakon from "../../../assets/thumbnails/streakon.webp";
+import thumbnailRibicrm from "../../../assets/thumbnails/ribicrm.webp";
+import thumbnailPesoneto from "../../../assets/thumbnails/pesoneto.webp";
+import thumbnailTaskflow from "../../../assets/thumbnails/taskflow.webp";
+import thumbnailStreetracex from "../../../assets/thumbnails/streetracex.webp";
 
 import type { ProjectPreview } from "../../types";
 
 export default [
   {
-    title: "StreakOn",
-    slug: "streakon",
-    thumbnail: thumbnailStreakon,
-    description: "App für tägliche Gewohnheiten",
+    title: "RIBI CRM",
+    slug: "ribicrm",
+    thumbnail: thumbnailRibicrm,
+    description: "Unternehmens-CRM-System",
   },
   {
-    title: "CubeWar",
-    slug: "cubewar",
-    thumbnail: thumbnailCubeWar,
-    description: "Multiplayer-Strategiespiel",
+    title: "Peso Neto",
+    slug: "pesoneto",
+    thumbnail: thumbnailPesoneto,
+    description: "Unternehmens-Website",
   },
   {
-    title: "Quibbo",
-    slug: "quibbo",
-    thumbnail: thumbnailQuibbo,
-    description: "Multiplayer-Gaming-Plattform",
+    title: "TaskFlow",
+    slug: "taskflow",
+    thumbnail: thumbnailTaskflow,
+    description: "Außendienst-Management",
   },
   {
-    title: "Sharkie",
-    slug: "sharkie",
-    thumbnail: thumbnailSharkie,
-    description: "2D-Abenteuerspiel",
-  },
-  /**  {
-    title: "WebGL Partikel",
-    slug: "particles",
-    thumbnail: thumbnailParticles,
-    description: "Dynamische 3D Partikel",
-  }, */
-  {
-    title: "Pokédex",
-    slug: "pokedex",
-    thumbnail: thumbnailPokedex,
-    description: "Open-Source Lernprojekt",
+    title: "StreetRaceX",
+    slug: "streetracex",
+    thumbnail: thumbnailStreetracex,
+    description: "Street-Racing-Plattform",
   },
 ] as const satisfies ProjectPreview[];

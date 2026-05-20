@@ -7,10 +7,15 @@ export type TagVariant =
   | "html"
   | "css"
   | "javascript"
+  | "typescript"
   | "node"
   | "next"
   | "kubernetes"
   | "postgresql"
+  | "angular"
+  | "django"
+  | "prisma"
+  | "scss"
   | "ogl"
   | "glsl";
 
@@ -23,10 +28,15 @@ export const tagLabels = {
   html: "HTML",
   css: "CSS",
   javascript: "JavaScript",
+  typescript: "TypeScript",
   node: "Node.js",
   next: "Next.js",
   kubernetes: "Kubernetes",
   postgresql: "PostgreSQL",
+  angular: "Angular",
+  django: "Django",
+  prisma: "Prisma",
+  scss: "SCSS",
   ogl: "OGL.js",
   glsl: "GLSL",
 } as const satisfies Record<TagVariant, string>;
